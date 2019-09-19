@@ -1,0 +1,18 @@
+body {
+	background-image:url(alam.jpg);
+	height: 100%;
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+			
+		}
+
+.conten 
+{	
+	background-color: rgba(300,50,700);
+	background-position: center;
+	text-align: center;
+	display: inline-block;
+	padding: 100px;
+	width: 200px;
+	padding-top: 50PX;
