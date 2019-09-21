@@ -1,0 +1,63 @@
+body{
+	background-image: url(backgroudweb.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: times new roman;
+	color: grey;
+	text-align: center;	
+	border-bottom: 5px;
+}
+
+.tes1{
+	margin-top: 150px;
+	margin-left:470px;
+	padding-top: 20px;
+	padding-left: 5px;
+	background: rgba(255,255,255,.3);
+	height: 400px;
+	width:400px;
+	border-radius: 25px;
+	white-space: 25px;
+	box-shadow: 8px 8px 10px rgba(0,0,0,.5);
+}
+
+.layer1 input{
+	margin-bottom: 20px;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: white;
+	outline: none;
+	font-color:gray;
+	background:transparent;
+	transition: 0.25s;
+}
+
+.layer2 input{
+	margin: 14px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.layer3 input{
+	margin-bottom: 20pt;
+}
+
+input[type="submit"]{
+	color: black;
+	margin: auto;
+	width: 80px;
+	height:40px;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.1s;
+	cursor: pointer;
+}
