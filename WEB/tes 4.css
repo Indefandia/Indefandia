@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: grey;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #16a085;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}
+.mainbox{
+    margin-top: 30px;
+    margin-left:20px;
+    margin-bottom: 500px
+    background: rgba(255,255,255,.3);
+    height: 700px;
+    width:600px;
+    border-radius: 25px;
+    white-space: 25px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.3);
+}
+.search {
+    padding:8px 15px;
+    background-color: white;
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid grey;
+    background-color: white;
+    color: black;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color: black;
+}
+.course 1 {
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,.3)
+    text-align: center;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+.course 1:hover {
+    background-color: white;
+}
+.course 2 {
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,.3)
+    text-align: center;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+.course 2:hover {
+    background-color: white;
+}
+.kalender {
+    margin-left: 1000px;
+    margin-top: -100px;
+    border: none;
+}
